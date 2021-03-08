@@ -12,7 +12,7 @@ Once it's that's all done run `node server.js` in your CLI, and then open in you
 
 
 ## Usage
-Find the deployed application [here]()!
+Find the deployed application [here](https://fast-atoll-43902.herokuapp.com/)!
 
 The application will look something like this:
 ![Application Screenshot](./public/budget.PNG)
