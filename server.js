@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://root:s0mwclnsq6dnk06v@cluster0.ll0yv.mongodb.net/budget?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
